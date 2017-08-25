@@ -1,0 +1,67 @@
+.danse-bg{
+	background-image: url('img/bg-danse.jpg');
+	overflow: auto;
+	margin-bottom:50px
+}
+
+.section-danse-category{
+	display: block;
+	float:left;
+	width: 230px;
+	height: 150px;
+	line-height:150px;
+	margin: 28px;
+	
+	text-align: center;
+
+	font-family: 'Ceviche One', cursive;
+	font-size: 36px;
+	border : 2px solid #fff;
+
+	&:hover{
+		text-shadow: 5px 5px 5px #5d3b2b;
+		border-color: $orange;
+		transform: scaleX(1.05);
+	}
+}
+
+.fond-cat{
+	overflow: auto;
+	h1{
+		margin-top: 0;
+		font-family: 'Ceviche One', cursive;
+		font-size: 45px;
+		font-weight: lighter;
+		text-transform: capitalize;
+	}
+}
+
+.description-cat{
+	margin-top: 50px;
+	text-align: left;
+}
+
+.source-cat{
+	a{
+		color:#aaa;
+		font-size: 12px;
+		&:hover{
+			color:$orange;
+		}
+	}
+}
+
+// gwoka
+.paraphe-gwoka{
+	width: 750px;
+	text-align: left;
+}
+.liste-gwoka{
+	width: 400px;
+	text-align: left;
+	float:left;
+}
+
+.liste-2{
+	float: right;
+}

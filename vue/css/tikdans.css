@@ -1,0 +1,236 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #000;
+  background-color: #5d3b2b;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    color: #bb4c18; }
+
+h3 {
+  color: #bb4c18;
+  text-transform: uppercase; }
+
+ul {
+  padding: 0;
+  list-style-type: none; }
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: auto;
+  z-index: 5; }
+
+/* Header */
+.header {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #000;
+  height: 150px;
+  line-height: 150px; }
+
+.menu-header {
+  margin: 0 auto;
+  float: left;
+  width: 83%; }
+  .menu-header a {
+    margin-left: 30px; }
+    .menu-header a:after {
+      content: "//";
+      color: #fff;
+      margin-left: 30px; }
+    .menu-header a:last-child:after {
+      content: ""; }
+
+.fil-arriane {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left; }
+
+.fil-arriane-item {
+  color: #000; }
+  .fil-arriane-item:after {
+    content: '>>'; }
+
+.menu-image {
+  width: 75px;
+  float: left; }
+  .menu-image img {
+    width: 100%;
+    display: inline-block; }
+
+.section {
+  background-color: #fff;
+  width: 75%;
+  margin: 0 auto; }
+
+.section-logo {
+  margin: 50px 0; }
+
+.section-block {
+  width: 50%;
+  float: left;
+  background-color: #fff;
+  position: relative; }
+  .section-block:before {
+    content: "";
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewy(5deg);
+    transform-origin: left top;
+    z-index: 4; }
+
+.section-block-2 {
+  float: right; }
+  .section-block-2:before {
+    transform: skewy(-5deg);
+    transform-origin: right top; }
+
+.section-block-3:before {
+  transform: skewy(-5deg);
+  transform-origin: right 0; }
+
+.section-block-4 {
+  float: right; }
+  .section-block-4:before {
+    transform: skewy(5deg);
+    transform-origin: 0 0; }
+
+.home-img {
+  width: 700px;
+  margin: auto; }
+  .home-img img {
+    width: 100%;
+    height: auto; }
+
+.home-text {
+  color: #000;
+  margin: 55px 0; }
+
+.footer {
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  background-color: #000; }
+
+.footer-contact {
+  float: left;
+  margin: 30px 0 0 0;
+  text-align: left; }
+
+.footer-social {
+  margin: 30px 0;
+  float: right;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.danse-bg {
+  background-image: url("img/bg-danse.jpg");
+  overflow: auto;
+  margin-bottom: 50px; }
+
+.section-danse-category {
+  display: block;
+  float: left;
+  width: 230px;
+  height: 150px;
+  line-height: 150px;
+  margin: 28px;
+  text-align: center;
+  font-family: 'Ceviche One', cursive;
+  font-size: 36px;
+  border: 2px solid #fff; }
+  .section-danse-category:hover {
+    text-shadow: 5px 5px 5px #5d3b2b;
+    border-color: #bb4c18;
+    transform: scaleX(1.05); }
+
+.fond-cat {
+  overflow: auto; }
+  .fond-cat h1 {
+    margin-top: 0;
+    font-family: 'Ceviche One', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+    text-transform: capitalize; }
+
+.description-cat {
+  margin-top: 50px;
+  text-align: left; }
+
+.source-cat a {
+  color: #aaa;
+  font-size: 12px; }
+  .source-cat a:hover {
+    color: #bb4c18; }
+
+.paraphe-gwoka {
+  width: 750px;
+  text-align: left; }
+
+.liste-gwoka {
+  width: 400px;
+  text-align: left;
+  float: left; }
+
+.liste-2 {
+  float: right; }
+
+.presentation-prestation {
+  margin-bottom: 30px;
+  overflow: auto; }
+
+.img-prestation {
+  display: block;
+  width: 45%;
+  float: right; }
+
+.presentation-prestation p {
+  float: left;
+  width: 45%; }
+
+.slider-prestation {
+  border: 2px solid #bb4c18;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  margin-bottom: 30px; }
+  .slider-prestation h1 {
+    text-shadow: 2px 2px 2px #bb4c18; }
+  .slider-prestation img {
+    display: inline-block;
+    width: 100%; }
+
+.box-image {
+  width: 28%;
+  display: inline-block;
+  margin: 5px;
+  /* position: relative; */
+  overflow: hidden;
+  /* border:1px solid #000; */ }
+  .box-image figcaption {
+    background: #bb4c18; }
+  .box-image h3 {
+    /* position: absolute;
+    bottom: 0; */
+    color: #fff;
+    opacity: none;
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    width: 100%; }
+
+/*# sourceMappingURL=tikdans.css.map */

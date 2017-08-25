@@ -1,0 +1,52 @@
+/* Header */
+
+.header{
+	width:75%;
+	margin: 0 auto;
+	//background: url('img/carnaval.jpg') no-repeat center top fixed;
+	background-color: #000;
+	height: 150px;
+	line-height: 150px;
+}
+
+.menu-header{
+	margin: 0 auto;
+	float:left;
+	width: 83%;
+	a{
+		margin-left: 30px;
+		&:after{
+			content:"//";
+			color: #fff;
+			margin-left: 30px;
+		}
+		&:last-child:after{
+			content:"";
+		}
+		
+	}
+}
+
+// fil ariane
+
+.fil-arriane{
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.fil-arriane-item{
+		color: #000;
+		&:after{
+			content: '>>';
+		}
+	}
+
+.menu-image{
+	width:75px;
+	float:left;
+	img{
+		width: 100%;
+		display:inline-block;
+	}
+}

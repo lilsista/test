@@ -1,0 +1,46 @@
+.section{
+	background-color: #fff;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.section-logo{
+	margin: 50px 0;
+}
+.section-block{
+	width: 50%;
+	float:left;
+	background-color: #fff;
+	position: relative;
+	&:before{
+		content:"";
+		display: block;
+		background-color: #fff;
+		position: absolute;
+		top :-50px; left: 0; right: 0; bottom: 0; 	 	
+		transform: skewy(5deg);
+		transform-origin: left top;
+		z-index : 4;
+	}
+}
+.section-block-2{
+	float:right;
+	&:before{	 	
+		transform: skewy(-5deg);
+		transform-origin: right top;
+	}
+}
+.section-block-3{
+	&:before{
+		transform: skewy(-5deg);
+		transform-origin: right 0 ;
+	}
+}
+.section-block-4{
+	float:right;
+	&:before{
+		transform: skewy(5deg);
+		transform-origin: 0 0;
+	}
+}
+

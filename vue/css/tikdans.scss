@@ -1,0 +1,16 @@
+// variables
+$orange : #bb4c18;
+
+// les bases
+@import 'bases/bases.scss';
+
+// layoute
+@import 'layout/layout.scss';
+
+//les modules
+@import 'module/header.scss';
+@import 'module/section.scss';
+@import 'module/home.scss';
+@import 'module/footer.scss';
+@import 'module/danse.scss';
+@import 'module/prestation.scss';

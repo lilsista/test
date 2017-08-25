@@ -1,0 +1,56 @@
+.presentation-prestation{
+	margin-bottom:30px;
+	overflow:auto;
+	
+}
+.img-prestation{
+	display: block;
+	width: 45%;
+	float:right;
+}
+
+.presentation-prestation p{
+	float:left;
+	width : 45%;
+}
+
+.slider-prestation{
+
+	border: 2px solid $orange;
+	border-radius:5px;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	h1{
+		text-shadow: 2px 2px 2px $orange;
+	}
+	img{
+		display:inline-block;
+		width:100%;
+		
+	}
+}
+
+.box-image{
+	width: 28%;
+	display:inline-block;
+	margin:5px;
+	/* position: relative; */
+	overflow: hidden;
+	/* border:1px solid #000; */
+	figcaption{
+		background: $orange;
+	}
+	h3{
+		/* position: absolute;
+		bottom: 0; */
+	    color:#fff;
+	    opacity:none;
+	    text-align: center;
+	    font-size: 10px;
+	    margin: 0 ;
+	    width: 100%;
+	}
+}
+
+
+
